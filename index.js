@@ -13,7 +13,7 @@ const client = new Client({
 
 
 client.on("ready", () => {
-  client.user.setActivity("Remember to stay toasty!");
+  client.user.setActivity("Funy bot"),
   console.log("Online")
 
 
@@ -21,8 +21,7 @@ client.on("ready", () => {
   new WOK({
     client,
     commandsDir: path.join(__dirname, "commands"),
-    testServers: '1007713364950122619',
-    botOwners: "431607795343818752"
+    testServers: ['950856571653611520'],
   })
 });
 
